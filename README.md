@@ -20,7 +20,7 @@ You will need to install [Torch](http://torch.ch/docs/getting-started.html), CuD
 
 ####How to generate samples:
 
-* For flowers: `./scripts/demo_flowers.sh`. Add text descriptions to `scripts/flowers_queries.txt`. There is a text file `scripts/flowers_queries.txt` in which you can add text descriptions, one per line.
+* For flowers: `./scripts/demo_flowers.sh`. Add text descriptions to `scripts/flowers_queries.txt`.
 * For birds: `./scripts/demo_cub.sh`.
 * For COCO (more general images): `./scripts/demo_coco.sh`. 
 * An html file will be generated with the results:
