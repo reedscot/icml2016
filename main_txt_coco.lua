@@ -1,6 +1,6 @@
 --[[ 
 
-Generic training script for GAN, GAN-CLS, GAN-INT, GAN-CLS-INT.
+Train a text encoder.
 
 --]]
 require 'torch'
