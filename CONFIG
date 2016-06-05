@@ -1,0 +1,18 @@
+# bird related data
+CUB_IMG_DIR=/mnt/brain1/scratch/reedscot/nx/reedscot/data/gutenbirds/CUB_200_2011/images
+CUB_META_DIR=/home/reedscot/data/cub_icml
+CUB_NET_TXT=/mnt/brain1/scratch/reedscot/multimodal/cv/lm_sje_nc4_cub_hybrid_gru18_a1_c512_0.00070_1_10_trainvalids.txt_iter30000.t7
+
+# flowers related data
+FLOWERS_IMG_DIR=/mnt/brain1/scratch/reedscot/data/oxford102
+FLOWERS_META_DIR=/home/reedscot/data/flowers_icml
+FLOWERS_NET_TXT=/mnt/brain1/scratch/reedscot/multimodal/cv/lm_sje_flowers_c10_hybrid_0.00070_1_10_trainvalids.txt_iter16400.t7
+
+# MS-COCO related data
+COCO_IMG_DIR=/home/reedscot/data/coco/train2014
+COCO_META_DIR=/home/reedscot/data/coco/train2014_ex_t7
+COCO_NET_TXT=/home/reedscot/checkpoints/coco_gru18_bs64_cls0.5_ngf128_ndf128_a10_c512_80_net_T.t7
+
+# location to save checkpoints
+CHECKPOINT_DIR=/home/reedscot/checkpoints
+
