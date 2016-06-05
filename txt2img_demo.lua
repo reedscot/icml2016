@@ -6,7 +6,6 @@ require 'cunn'
 require 'cutorch'
 require 'cudnn'
 require 'lfs'
-util = paths.dofile('util.lua')
 torch.setdefaulttensortype('torch.FloatTensor')
 
 local alphabet = "abcdefghijklmnopqrstuvwxyz0123456789-,;.!?:'\"/\\|_@#$%^&*~`+-=<>()[]{} "

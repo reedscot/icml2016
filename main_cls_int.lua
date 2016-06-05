@@ -7,7 +7,6 @@ require 'torch'
 require 'nn'
 require 'nngraph'
 require 'optim'
-util = paths.dofile('util.lua')
 
 opt = {
    numCaption = 4,
