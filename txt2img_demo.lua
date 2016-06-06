@@ -95,7 +95,7 @@ for i = 1,#fea_txt do
   images:add(1):mul(0.5)
   --image.save(fname_png, image.toDisplayTensor(images,4,torch.floor(opt.batchSize/4)))
   image.save(fname_png, image.toDisplayTensor(images,4,opt.batchSize/2))
-  html = html .. string.format('\n<tr><td>%s</td><td><img src="%s"/></td></tr>',
+  html = html .. string.format('\n<tr><td>%s</td><td><img src="%s"></td></tr>',
                                cur_raw_txt, fname_png)
   os.execute(string.format('echo "%s" > %s', cur_raw_txt, fname_txt))
 end
