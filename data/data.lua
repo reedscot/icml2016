@@ -1,4 +1,4 @@
-[[--
+--[[
 This data loader is a lightly-modified version of the one from dcgan.torch
 (see https://github.com/soumith/dcgan.torch/blob/master/data/data.lua).
 
