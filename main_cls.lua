@@ -223,7 +223,7 @@ if opt.init_d == '' then
     conv:add(SpatialConvolution(ndf * 2, ndf * 8, 3, 3, 1, 1, 1, 1))
     conv:add(SpatialBatchNormalization(ndf * 8))
     conc:add(nn.Identity())
-    conc:add(skipD)
+    conc:add(conv)
     convD:add(conc)
     convD:add(nn.CAddTable())
 
