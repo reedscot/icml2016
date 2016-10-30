@@ -11,8 +11,7 @@ You will need to install [Torch](http://torch.ch/docs/getting-started.html), CuD
 
 ####How to train a text to image model:
 
-1. Download the [birds](https://drive.google.com/file/d/0B0ywwgffWnLLbXlIekszSWE5VVU/view?usp=sharing)
- and [flowers](https://drive.google.com/file/d/0B0ywwgffWnLLYjFMSGpmSVl3bVE/view?usp=sharing) and [COCO](https://drive.google.com/open?id=0B0ywwgffWnLLamltREhDRjlaT3M) caption data in Torch format.
+1. Download the [birds](https://drive.google.com/file/d/0B0ywwgffWnLLLUc2WHYzM0Q2eWc/view?usp=sharing) and [flowers](https://drive.google.com/file/d/0B0ywwgffWnLLMl9uOU91MV80cVU/view?usp=sharing) and [COCO](https://drive.google.com/open?id=0B0ywwgffWnLLamltREhDRjlaT3M) caption data in Torch format.
 2. Download the [birds](http://www.vision.caltech.edu/visipedia/CUB-200-2011.html) and [flowers](http://www.robots.ox.ac.uk/~vgg/data/flowers/102) and [COCO](http://mscoco.org/dataset/#download) image data.
 3. Download the text encoders for [birds](https://drive.google.com/open?id=0B0ywwgffWnLLU0F3UHA3NzFTNEE) and [flowers](https://drive.google.com/open?id=0B0ywwgffWnLLZUt0UmQ1LU1oWlU) and [COCO](https://drive.google.com/open?id=0B0ywwgffWnLLeVNmVVV6OHBDUFE) descriptions.
 4. Modify the `CONFIG` file to point to your data and text encoder paths.
